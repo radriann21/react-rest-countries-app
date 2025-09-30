@@ -1,5 +1,6 @@
 import { Header } from "../components/Header"
 import { InputContainer } from "../components/InputContainer"
+import { CountryList } from "../components/CountryList"
 
 export const MainPage = () => {
   return (
@@ -9,6 +10,7 @@ export const MainPage = () => {
       <Header />
       <section className="max-w-full px-10 py-12">
         <InputContainer />
+        <CountryList />
       </section>
     </main>
   )
