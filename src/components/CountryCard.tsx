@@ -9,18 +9,18 @@ export const CountryCard = ({country}: {country: CountryInterface}) => {
         alt={country.flags.alt}
       />
       <div className="p-4">
-        <h2 className="font-semibold font-global text-lg dark:text-white">{country.name.common}</h2>
+        <h2 className="font-bold font-global text-xl dark:text-white">{country.name.common}</h2>
         <div className="mt-2">
           <div>
-            <span className="font-semibold dark:text-white">Population: </span> 
+            <span className="font-bold dark:text-white">Population: </span> 
             {country.population.toLocaleString("en")}
           </div>
           <div>
-            <span className="font-semibold dark:text-white">Region: </span> 
+            <span className="font-bold dark:text-white">Region: </span> 
             {country.region}
           </div>
           <div>
-            <span className="font-semibold dark:text-white">Capital: </span>
+            <span className="font-bold dark:text-white">Capital: </span>
             {country.capital}
           </div>
         </div>
